@@ -1,0 +1,10 @@
+name: Initial
+on: workflow_dispatch
+jobs:
+  greetings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hi
+        run: |
+          echo "Hello there!"
+  
